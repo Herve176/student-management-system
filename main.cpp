@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Student.h"
+#include<vector>
 
 int main() {
-    std::cout << "Student Management System is starting..." << std::endl;
+    std::vector<Student*> studentList;
+
     return 0;
 }
