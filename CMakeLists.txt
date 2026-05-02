@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(student_management_system main.cpp
         Student.cpp
-        Student.h)
+        Student.h
+        services/StudentService.cpp
+        services/StudentService.h
+        services/FileService.cpp
+        services/FileService.h)
