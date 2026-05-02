@@ -23,6 +23,21 @@ public:
     Student displayStudent();
     Student updateStudent();
 
+    // Getter methods
+    int getId() const { return id; }
+    std::string getName() const { return name; }
+    std::string getGender() const { return gender; }
+    std::string getEmail() const { return email; }
+    std::string getNiveau() const { return niveau; }
+
+    // Setter methods
+    void setId(int newId) { id = newId; }
+    void setName(const std::string& newName) { name = newName; }
+    void setGender(const std::string& newGender) { gender = newGender; }
+    void setEmail(const std::string& newEmail) { email = newEmail; }
+    void setNiveau(const std::string& newNiveau) { niveau = newNiveau; }
+
+
 };
 
 
