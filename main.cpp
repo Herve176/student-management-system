@@ -27,6 +27,7 @@ int main() {
     std::cout << "Gender: " << newStudent->getGender() << std::endl;
     std::cout << "Email: " << newStudent->getEmail() << std::endl;
     std::cout << "Niveau: " << newStudent->getNiveau() << std::endl;
+    std::cout << "Student: " << studentList.size() << std::endl;
     // Clean up memory
     for (auto student : studentList) {
         delete student;
